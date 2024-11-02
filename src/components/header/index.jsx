@@ -1,6 +1,7 @@
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
+import heart from "../../assets/heart.png";
 
 const Header = () => {
   return (
@@ -9,11 +10,11 @@ const Header = () => {
         <Container>
           <Navbar.Brand>
             <div className="d-flex gap-3">
-              <Image src="./src/assets/heart.png" width={16} />
-              <Image src="./src/assets/heart.png" width={16} />
-              <Image src="./src/assets/heart.png" width={16} />
-              <Image src="./src/assets/heart.png" width={16} />
-              <Image src="./src/assets/heart.png" width={16} />
+              <Image src={heart} width={16} />
+              <Image src={heart} width={16} />
+              <Image src={heart} width={16} />
+              <Image src={heart} width={16} />
+              <Image src={heart} width={16} />
             </div>
           </Navbar.Brand>
         </Container>

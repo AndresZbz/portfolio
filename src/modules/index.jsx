@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 
 import "./index.css";
 import Image from "react-bootstrap/Image";
+import avatar from "../assets/avatar.webp";
 
 const Main = () => {
   return (
@@ -22,7 +23,7 @@ const Main = () => {
                 className="rounded rounded-circle"
               >
                 <Image
-                  src="./src/assets/avatar.png"
+                  src={avatar}
                   roundedCircle
                   className="avatar border"
                   alt="art of me made by my amazing friend <3"
