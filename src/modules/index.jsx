@@ -5,15 +5,30 @@ import Button from "react-bootstrap/Button";
 import About from "./about";
 import Skills from "./skills";
 import Projects from "./projects";
+import { motion } from "framer-motion";
 
 import "./index.css";
+import Image from "react-bootstrap/Image";
 
 const Main = () => {
   return (
     <>
       <div className="container-xl">
         <Container>
-          <Row style={{ marginTop: "15%" }}>
+          <Row style={{ marginTop: "10%" }}>
+            <Col sm={12} lg={6} className="text-center">
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                className="rounded rounded-circle"
+              >
+                <Image
+                  src="./src/assets/avatar.png"
+                  roundedCircle
+                  className="avatar border"
+                  alt="art of me made by my amazing friend <3"
+                />
+              </motion.div>
+            </Col>
             <Col
               sm={12}
               lg={6}
@@ -50,14 +65,16 @@ const Main = () => {
                         <path d="M13 15l3 0"></path>{" "}
                         <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>{" "}
                       </svg>
-                      Github
+                      <a
+                        href="https://github.com/AndresZbz"
+                        className="text-decoration-none text-white"
+                      >
+                        Github
+                      </a>
                     </Button>
                   </div>
                 </div>
               </Container>
-            </Col>
-            <Col sm={12} lg={6} className="text-center">
-              fsdfds
             </Col>
           </Row>
         </Container>

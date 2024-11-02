@@ -1,17 +1,21 @@
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
 
 const Header = () => {
   return (
     <>
       <Navbar sticky="top" bg="transparent" data-bs-theme="dark">
         <Container>
-          <Nav className="ms-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-          </Nav>
+          <Navbar.Brand>
+            <div className="d-flex gap-3">
+              <Image src="./src/assets/heart.png" width={16} />
+              <Image src="./src/assets/heart.png" width={16} />
+              <Image src="./src/assets/heart.png" width={16} />
+              <Image src="./src/assets/heart.png" width={16} />
+              <Image src="./src/assets/heart.png" width={16} />
+            </div>
+          </Navbar.Brand>
         </Container>
       </Navbar>
       <br />

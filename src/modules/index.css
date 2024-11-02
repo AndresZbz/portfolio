@@ -5,3 +5,21 @@
 .btn:hover {
   background: #333333; /* Background color on hover */
 }
+
+.avatar {
+  width: 320px;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .avatar {
+    width: 128px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1280px) {
+  .avatar {
+    width: 240px;
+    margin-bottom: 40px;
+  }
+}

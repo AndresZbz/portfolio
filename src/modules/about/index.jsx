@@ -5,15 +5,15 @@ const About = () => {
     <Card
       id="about"
       className="bg-transparent text-white"
-      style={{ marginTop: 310, padding: 20 }}
+      style={{ marginTop: 290, padding: 20 }}
     >
       <Card.Body>
         <Card.Title style={{ fontSize: 50 }}>About</Card.Title>
-        <Card.Text className="mt-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem natus quibusdam at hic quo accusamus deleniti. Saepe
-          sit, unde adipisci, sed distinctio minus cumque hic quidem quam,
-          possimus explicabo nemo?
+        <Card.Text className="mt-5" style={{ fontSize: 20 }}>
+          Hey! I'm Juan Bouza or AndresZbz depending on my name or username, I'm
+          a CS student at Venezuela currently working as a Frontend Web
+          developer but with a passion of building videogames, currently working
+          on 2.
         </Card.Text>
       </Card.Body>
     </Card>
