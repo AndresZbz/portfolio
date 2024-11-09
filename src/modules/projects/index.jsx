@@ -4,8 +4,8 @@ const Projects = () => {
   return (
     <Card
       id="projects"
-      className="bg-transparent text-white"
-      style={{ marginTop: 110, padding: 20 }}
+      className="text-white rounded-5"
+      style={{ marginTop: 110, padding: 20, background: "#2a2929" }}
     >
       <Card.Body>
         <Card.Title style={{ fontSize: 50 }}>Projects</Card.Title>

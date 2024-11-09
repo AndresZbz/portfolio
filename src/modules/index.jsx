@@ -25,7 +25,7 @@ const Main = () => {
                 <Image
                   src={avatar}
                   roundedCircle
-                  className="avatar border"
+                  className="avatar bg=primary"
                   alt="art of me made by my amazing friend <3"
                 />
               </motion.div>
@@ -47,7 +47,7 @@ const Main = () => {
                   <div className="d-flex gap-3 mt-3">
                     <Button
                       variant="dark"
-                      className="btn text-white border-white hover-overlay"
+                      className="btn text-white border hover-overlay"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
